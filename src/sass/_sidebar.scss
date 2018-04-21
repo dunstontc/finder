@@ -1,0 +1,20 @@
+.sidebar {
+  grid-column     : 1/2;
+  grid-row        : 3/5;
+  padding         : 12px;
+  overflow-y      : scroll;
+  width           : 200px;
+  background-color: rgb(246, 246, 246);
+  // border-right: 0.1px solid rgb(224, 221, 224);
+}
+
+.sidebar-list {
+  list-style: none outside;
+  padding   : 0px;
+  margin    : 0px;
+}
+.sidebar-item {
+  list-style: none outside;
+  padding   : 0px;
+  margin    : 0px;
+}

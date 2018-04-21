@@ -1,0 +1,45 @@
+#folder {
+  min-width        : 64px;
+  background-image : url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1177694/Folder-icon.png');
+  background-repeat: no-repeat;
+}
+
+.folder {
+  display      : flex;
+  flex-flow    : column nowrap;
+  align-items  : center;
+  // justify-content: center;
+  margin       : 10px;
+  width        : 90px;
+  min-height   : 120px;
+  padding-left : 7px;
+  padding-right: 7px;
+  // border: 1px solid slategray;
+}
+
+.file-icon {
+  min-width          : 74px;
+  min-height         : 70px;
+  border-radius      : 5px;
+  background-image   : url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1177694/Folder-icon.png');
+  background-repeat  : no-repeat;
+  background-color   : rgb(217, 217, 217);
+  background-position: center;
+}
+.file-name {
+  border          : 1px solid slategray;
+  padding         : 2px;
+  border-radius   : 5px;
+  font-size       : 10pt;
+  background-color: rgb(92, 92, 96);
+  color           : rgb(255, 255, 247);
+}
+.file-info {
+  // border: 1px solid slategray;
+  font-size: 9pt;
+  color    : rgb(154, 185, 225);
+}
+
+.special-folder {
+  @extend .folder;
+}

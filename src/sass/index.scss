@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+@import './body';
+@import './folder';
+@import './footer';
+@import './header';
+@import './sidebar';
+
+style  { display: none; }
+script { display: none; }
+
+* {
+    box-sizing : border-box;
+    text-align : center;
+    display    : inherit;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+html, body {
+    margin : 0px;
+    padding: 0px;
+    width  : 100%;
+    height : 100%;
+}
+
+body {
+    display         : flex;
+    flex-flow       : column nowrap;
+    justify-content : center; // vertical alignment
+    align-content   : center; // row spacing
+    align-items     : center; // horizontal alignment
+    background-color: black;
+    // margin-bottom: 300px;
+}
+
+.finder {
+    display              : grid;
+    grid-template-rows   : 54px 24px 1fr 23px 23px;
+    grid-template-columns: auto auto;
+    height               : 500px;
+    width                : 800px;
+}
