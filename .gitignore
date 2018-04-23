@@ -1,3 +1,4 @@
+
 #   ┌─┐┬┌┬┐┬┌─┐┌┐┌┌─┐┬─┐┌─┐
 #   │ ┬│ │ ││ ┬││││ │├┬┘├┤
 #  o└─┘┴ ┴ ┴└─┘┘└┘└─┘┴└─└─┘
@@ -8,24 +9,16 @@ Icon?
 Desktop.ini
 Thumbs.db
 
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
-
 # dependencies
 node_modules/*
 bower_components/*
-vendor/*
 
 # Built files
-Build/*
-build/*
 dist/*
 
 # Local files
 .env
 .variables
-.ignore/*
 ignore/*
 
 # Logs
@@ -40,5 +33,3 @@ yarn-error.log
 .vscode
 .projectile
 */tags
-
-
