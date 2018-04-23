@@ -21,7 +21,7 @@ class App extends React.Component {
                 <div className="tabs">
                     <span className="tab-title"> {this.props.title} </span>
                 </div>
-                <Files files={this.state.files}/>
+                <Files files={this.state.files} />
                 <Sidebar />
                 <div className="body-footer"> Body Footer </div>
                 <div className="footer"> TODO: Item count </div>

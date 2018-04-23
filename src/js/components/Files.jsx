@@ -6,8 +6,8 @@ const Files = ({ files }) => {
             {files.map(file =>
                 <div className="folder" key={file.toString()}>
                     <div className="file-icon"></div>
-                    <span className="file-name"> { file.name } </span>
-                    <span className="file-info"> { file.info } </span>
+                    <span className="file-name"> {file.name} </span>
+                    <span className="file-info"> {file.info} </span>
                 </div>
             )}
         </div>
