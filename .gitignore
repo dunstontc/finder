@@ -10,8 +10,8 @@ Desktop.ini
 Thumbs.db
 
 # dependencies
-node_modules/*
-bower_components/*
+node_modules
+bower_components
 
 # Built files
 dist/*
